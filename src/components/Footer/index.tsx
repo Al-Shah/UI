@@ -54,7 +54,7 @@ const footerLinks = [
 ]
 export default function Footer() {
   return (
-    <footer className="w-full space-y-8 bg-sky text-white px-32 pt-20">
+    <footer className="mt-96 w-full space-y-8 bg-sky text-white px-32 pt-20">
       <div className="flex justify-between text-xl items-start font-medium">
         <div className="w-1/5">
           <div className="w-fit flex px-8 scale-[0.8] origin-top-left bg-white text-black rounded-xl shadow-xl items-center space-x-4">

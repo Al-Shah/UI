@@ -18,7 +18,7 @@ export default function AlButton({
     <button
       onClick={onClick}
       className={` font-medium ${
-        bgColor ? `bg-[${bgColor}]` : "bg-[#FABF75]"
+        bgColor ? `bg-[${bgColor}]` : "bg-brown"
       } rounded-3xl m-${m} p-${p} text-${fontSize}`}
     >
       {text ? text : ""}

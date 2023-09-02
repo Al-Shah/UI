@@ -17,7 +17,8 @@ const config: Config = {
       colors:{
         white:"#fff",
         black:"#000",
-        sky:"#7ED0DE"
+        sky:"#7ED0DE",
+        brown:"#FABF75"
       }
     },
   },

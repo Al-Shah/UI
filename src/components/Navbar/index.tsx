@@ -1,9 +1,49 @@
+"use client"
 import Image from "next/image"
 import Link from "next/link"
+import { useCallback, useEffect, useState } from "react"
 
 export default function Navbar() {
+  const [scrollY, setScrollY] = useState(0)
+  const [direction, setDirection] = useState("")
+  let oldScrollY = 0
+
+  const controlDirection = () => {
+    if (window.scrollY > oldScrollY) {
+      setDirection("down")
+    } else {
+      setDirection("up")
+    }
+    oldScrollY = window.scrollY
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlDirection)
+    return () => {
+      window.removeEventListener("scroll", controlDirection)
+    }
+  }, [])
+
+  const onScroll = useCallback((event: any) => {
+    const { scrollY } = window
+    setScrollY(window.scrollY)
+  }, [])
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll, { passive: true })
+    return () => {
+      window.removeEventListener("scroll", onScroll, { passive: true })
+    }
+  }, [])
+
   return (
-    <nav className="w-full fixed px-16 py-12 flex justify-between text-xl">
+    <nav
+      className={`z-10 pt-12 ${
+        direction === "down" && scrollY > 110 && "opacity-0"
+      } ${
+        scrollY > 110 && "backdrop-blur-sm bg-[#7ED0DE60] pt-4 py-4"
+      } w-full fixed px-16  flex justify-between text-xl`}
+    >
       <div className="w-fit flex items-center space-x-4">
         <Image
           src="/assets/umrah.webp"
