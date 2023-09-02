@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function index() {
   return (
     <section className="">
-      <div className="absolute w-full pt-44 px-40 space-y-8  text-white text-center ">
+      <div className="absolute left-0 w-full pt-44 px-40 space-y-8  text-white text-center ">
         <h2 className=" font-semibold text-3xl">
           Facilitate your Umrah pilgrimage
         </h2>
