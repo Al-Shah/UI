@@ -46,7 +46,7 @@ export default function Navbar() {
     >
       <div className="w-fit flex items-center space-x-4">
         <Image
-          src="/assets/umrah.webp"
+          src="/assets/images/umrah.webp"
           alt="Umrah"
           width={82}
           height={105}

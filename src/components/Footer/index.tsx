@@ -59,7 +59,7 @@ export default function Footer() {
         <div className="w-1/5">
           <div className="w-fit flex px-8 scale-[0.8] origin-top-left bg-white text-black rounded-xl shadow-xl items-center space-x-4">
             <Image
-              src="/assets/umrah.webp"
+              src="/assets/images/umrah.webp"
               alt="Umrah"
               width={82}
               height={105}
