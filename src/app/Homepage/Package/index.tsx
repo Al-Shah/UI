@@ -1,3 +1,4 @@
+"use client"
 import PackageCard from "@/components/PackageCard"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
@@ -6,6 +7,363 @@ const packageContent = {
   subHeading:
     "Choose your package according to your needs, guaranteed cheap and complete",
   tabs: ["Hajj", "Umrah", "Couple-packages"],
+  hajj: [
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: true,
+      hostel: true,
+      visas: true,
+      eat: true,
+      amount: 125000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "long",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "long",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+  ],
+  umrah: [
+    {
+      date: "12 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 7,
+      travelType: "long",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: true,
+      hostel: true,
+      visas: true,
+      eat: true,
+      amount: 125000,
+    },
+    {
+      date: "12 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 11,
+      travelType: "long",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "13 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "long",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "long",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+  ],
+  "couple-package": [
+    {
+      date: "01 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 7,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: true,
+      hostel: true,
+      visas: true,
+      eat: true,
+      amount: 125000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "best",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "special",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "long",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+    {
+      date: "19 AUG 2023",
+      imgPath: "/assets/images/pkg-card-1.webp",
+      days: 17,
+      travelType: "long",
+      title: "Al Shah Special Umrah",
+      flight: true,
+      ticket: false,
+      hostel: true,
+      visas: false,
+      eat: true,
+      amount: 725000,
+    },
+  ],
 }
 
 export default function index() {
@@ -24,10 +382,64 @@ export default function index() {
           ))}
         </TabsList>
         <TabsContent value="hajj">
-          <PackageCard />
+          <div className="flex flex-wrap justify-center">
+            {packageContent.hajj.map((card) => (
+              <PackageCard
+                date={card.date}
+                imgPath={card.imgPath}
+                days={card.days}
+                travelType={card.travelType}
+                title={card.title}
+                flight={card.flight}
+                ticket={card.ticket}
+                hostel={card.hostel}
+                visas={card.visas}
+                eat={card.eat}
+                amount={card.amount}
+              />
+            ))}
+          </div>
         </TabsContent>
-        <TabsContent value="umrah">Umrah</TabsContent>
-        <TabsContent value="couple-packages">couple-packages</TabsContent>
+        <TabsContent value="umrah">
+          {" "}
+          <div className="flex flex-wrap justify-center">
+            {packageContent.umrah.map((card) => (
+              <PackageCard
+                date={card.date}
+                imgPath={card.imgPath}
+                days={card.days}
+                travelType={card.travelType}
+                title={card.title}
+                flight={card.flight}
+                ticket={card.ticket}
+                hostel={card.hostel}
+                visas={card.visas}
+                eat={card.eat}
+                amount={card.amount}
+              />
+            ))}
+          </div>
+        </TabsContent>
+        <TabsContent value="couple-packages">
+          {" "}
+          <div className="flex flex-wrap justify-center">
+            {packageContent["couple-package"].map((card) => (
+              <PackageCard
+                date={card.date}
+                imgPath={card.imgPath}
+                days={card.days}
+                travelType={card.travelType}
+                title={card.title}
+                flight={card.flight}
+                ticket={card.ticket}
+                hostel={card.hostel}
+                visas={card.visas}
+                eat={card.eat}
+                amount={card.amount}
+              />
+            ))}
+          </div>
+        </TabsContent>
       </Tabs>
     </section>
   )
