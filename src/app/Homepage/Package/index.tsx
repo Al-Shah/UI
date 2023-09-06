@@ -368,7 +368,7 @@ const packageContent = {
 
 export default function index() {
   return (
-    <section className=" font-kufam font-semibold mx-40 flex flex-col items-center justify-center">
+    <section className=" font-kufam font-semibold  flex flex-col items-center justify-center">
       <h2 className="text-center text-7xl w-2/3">{packageContent.heading}</h2>
       <h3 className="text-center w-2/5 my-8">{packageContent.subHeading}</h3>
 

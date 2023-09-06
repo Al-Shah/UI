@@ -10,7 +10,7 @@ export default function index() {
   return (
     <section className="">
       <div className="absolute left-0 w-full pt-44 px-40 space-y-8  text-white text-center ">
-        <h2 className=" font-semibold text-3xl">{heroContent.subHeading}</h2>
+        <h2 className="  text-3xl">{heroContent.subHeading}</h2>
         <h1 className=" font-kufam font-bold text-6xl">
           {heroContent.heading}
         </h1>
