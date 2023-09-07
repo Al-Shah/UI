@@ -1,6 +1,6 @@
+import AlButton from "@/components/AlButton"
 import Image from "next/image"
 import React from "react"
-import AlButton from "../AlButton"
 
 interface propType {
   date: string
@@ -15,7 +15,7 @@ interface propType {
   visas?: boolean
   eat?: boolean
 }
-const index = ({
+const PackageCard = ({
   date,
   imgPath,
   days,
@@ -132,4 +132,4 @@ const index = ({
   )
 }
 
-export default index
+export default PackageCard

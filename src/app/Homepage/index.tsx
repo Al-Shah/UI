@@ -6,6 +6,9 @@ import Facilities from "./Facilities"
 import Upcoming from "./Upcoming"
 import Guide from "./Guide"
 import Accomadation from "./Accomadation"
+import Testimonials from "./Testimonials"
+import Gallery from "./Gallery"
+
 export default function index() {
   return (
     <>
@@ -17,6 +20,8 @@ export default function index() {
       <Guide />
       <Facilities />
       <Upcoming />
+      <Testimonials />
+      <Gallery />
     </>
   )
 }

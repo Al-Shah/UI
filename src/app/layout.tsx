@@ -6,6 +6,7 @@ import { Nunito, Girassol, Kufam, Poppins } from "next/font/google"
 
 const nunito = Nunito({
   style: ["normal"],
+  weight: ["400", "200", "300", "500", "600", "700"],
   variable: "--font-nunito",
   subsets: ["latin"],
 })
@@ -39,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${nunito.variable} ${girassol.variable} ${kufam.variable} ${poppins.variable}  font-nunito font-medium`}
+        className={`${nunito.variable} ${girassol.variable} ${kufam.variable} ${poppins.variable} font-medium font-nunito`}
       >
         <Navbar />
         {children}

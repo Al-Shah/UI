@@ -1,5 +1,5 @@
 "use client"
-import PackageCard from "@/components/PackageCard"
+import PackageCard from "@/app/Homepage/Package/components/PackageCard"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 const packageContent = {
